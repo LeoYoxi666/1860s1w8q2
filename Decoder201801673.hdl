@@ -1,0 +1,16 @@
+CHIP Decoder201801673{
+ 
+    IN A,B,C,D;
+    OUT a,b,c,d,e,f,g;
+ 
+    PARTS:
+ 
+    a(A = A, B = B, C = C, D = D, a = a);
+    b(A = A, B = B, C = C, D = D, b = b);
+    c(A = A, B = B, C = C, D = D, c = c);
+    d(A = A, B = B, C = C, D = D, d = d);
+    e(A = A, B = B, C = C, D = D, e = e);
+    f(A = A, B = B, C = C, D = D, f = f);
+    g(A = A, B = B, C = C, D = D, g = g);
+ 
+}
